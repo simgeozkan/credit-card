@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+}
+
+.container {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .card-bottom {
+  width: 450px;
+  height: 350px;
+  background-color: #f6f6f6;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container .card-bottom form {
+  padding: 100px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 12px;
+}
+.container .card-bottom form .date-label {
+  display: flex;
+  justify-content: space-between;
+}
+.container .card-bottom form .cvv {
+  margin-right: 140px;
+}
+.container .card-bottom form input {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 25px;
+  border: 1px solid #d1d1d1;
+}
+.container .card-bottom form .date {
+  display: flex;
+}
+.container .card-bottom form .date select {
+  flex: 1;
+  margin: 5px;
+  height: 25px;
+}
+.container .card-bottom form .btn-submit {
+  height: 30px;
+  border-radius: 5px;
+  color: #0072fa;
+  background-color: white;
+  border: 1px solid #0072fa;
+}
+.container .card-bottom form .btn-submit:hover {
+  background-color: #0072fa;
+  color: white;
+}
+.container .card-top {
+  width: 250px;
+  height: 160px;
+  background-image: linear-gradient(to top, #0b2f73, #004884, #004884, #004884, #278993);
+  border-radius: 15px;
+  position: relative;
+  top: 80px;
+}
+.container .card-top .logo-left {
+  width: 15%;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.container .card-top .logo-right {
+  width: 20%;
+  position: relative;
+  left: 140px;
+  top: 10px;
+}
+.container .card-top div {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 40px;
+  margin-left: 15px;
+  word-spacing: 0.4rem;
+}
+.container .card-top .user {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 10px;
+  color: #d1d1d1;
+  word-spacing: 0.2rem;
+  margin: 0 0.5rem;
+  margin-top: 1rem;
+}
+.container .card-top .user-info {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  word-spacing: 0.2rem;
+  margin: 0 0.5rem;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
